@@ -4,7 +4,7 @@ import random
 import sys
 import os
 from PIL import Image
-path = '/home/client/Client-Server/Wallpaper'
+path = '/home/client/Client-Server/Client-ServerTCP-IP/Wallpaper'
 files = os.listdir(path)
 
 
