@@ -1,0 +1,17 @@
+#!/bin/bash
+if [[ -d ~/Client-Server-TCP-IP ]]
+then
+	echo "The folder already exists"
+else
+	mkdir ~/Client-Server-TCP-IP
+fi
+
+cd ~/Client-Server-TCP-IP
+if [[ -d ~/Client-Server-TCP-IP ]];
+then
+	git clone https://github.com/AbhayGunputh/Client-ServerTCP-IP.git
+else
+	echo "The folder is already cloned"
+fi
+
+pip install hamming-codec
